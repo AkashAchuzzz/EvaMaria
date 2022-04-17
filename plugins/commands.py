@@ -50,7 +50,7 @@ async def start(client, message):
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
             ],[
-            InlineKeyboardButton('📖 Features And Instructions 📖', url='https://telegra.ph/THOR-BOT---Instructions-04-17')
+            InlineKeyboardButton('📖 Features And Instructions 📖', url='https://telegra.ph/THOR-BOT---Features-And-Instructions-04-17')
             ],[
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -99,7 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
             ],[
-            InlineKeyboardButton('📖 Features And Instructions 📖', url='https://telegra.ph/THOR-BOT---Instructions-04-17')
+            InlineKeyboardButton('📖 Features And Instructions 📖', url='https://telegra.ph/THOR-BOT---Features-And-Instructions-04-17')
             ],[
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
