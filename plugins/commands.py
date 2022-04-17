@@ -46,10 +46,10 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Support', url='https://t.me/ThorBotSupport')
-            InlineKeyboardButton('📖 Instructions', url='https://telegra.ph/THOR-BOT---Instructions-04-17')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('😊 About', callback_data='about'),
+            InlineKeyboardButton('📖 Instructions', url='https://telegra.ph/THOR-BOT---Instructions-04-17')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -95,7 +95,8 @@ async def start(client, message):
             InlineKeyboardButton('🤖 Support', url='https://t.me/ThorBotSupport')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('😊 About', callback_data='about'),
+            InlineKeyboardButton('📖 Instructions', url='https://telegra.ph/THOR-BOT---Instructions-04-17')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
