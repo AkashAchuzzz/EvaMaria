@@ -411,7 +411,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
-            InlineKeyboardButton('📖 Instructions', url='https://telegra.ph/THOR-BOT---Instructions-04-17')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
